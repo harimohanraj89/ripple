@@ -12,7 +12,7 @@ var rippleTime = 100;
 // ------------
 
 var positionSquares = function() {
-  $('#container').width(totalSize);
+  $('#container').width(totalSize).height(totalSize);
 
   for (var i = 0; i < num; i++) {
     for (var j = 0; j < num; j++) {
@@ -29,8 +29,8 @@ var createSquare = function(i, j) {
     .css('position', 'absolute')
     .css('left', j * size)
     .css('top', i * size)
-    .css('width', size - 1)
-    .css('height', size - 1)
+    .css('width', size)
+    .css('height', size)
     .appendTo('#container');
 }
 
