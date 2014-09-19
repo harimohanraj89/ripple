@@ -1,0 +1,15 @@
+body {
+  text-align: center;
+  color: #333;
+  font-family: Arial;
+}
+
+.square {
+  float: left;
+  background: #f77;
+}
+
+#container {
+  position: relative;
+  margin: 0 auto;
+}
